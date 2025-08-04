@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std; // maneja la salida y la entrada standard
+#include <iostream>
+
+using namespace std; // maneja la salida y la entrada standard
+int main() 
+{
+ cout << "Bolivianos: el hado propicio\ncoronó nuestros votos y anhelo;\nes ya libre, ya libre este suelo,\nya cesó su servil condición.";
+
+    return 0;
+}
