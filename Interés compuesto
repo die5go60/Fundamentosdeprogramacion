@@ -1,0 +1,17 @@
+#include <iostream>
+#include "math.h"
+
+using namespace std;
+int main()
+{
+    float C,T,N,I;
+    cout<<"Ingresar el capital: ";
+    cin>>C;
+    cout<<"Ingresar la tasa de interes anual en decimal: ";
+    cin>>T;
+    cout<<"Ingresar el numero de años: ";
+    cin>>N;
+    I = C*pow((1+T),N)-C;
+    cout<<"El interes compuesto es:" <<I<<endl;
+    return 0;
+}
