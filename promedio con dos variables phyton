@@ -1,0 +1,8 @@
+suma = 0
+i = 0
+
+while i < 5:
+    suma += int(input(f"Ingresá el número {i + 1}: "))
+    i += 1
+
+print("El promedio es:", suma / 5)
